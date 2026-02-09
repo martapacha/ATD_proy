@@ -1,16 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan 31 23:17:41 2026
-
-@author: Usuario
-"""
-
-"""
-Módulo AEMET (Estilo OpenSky):
-- Descarga los datos brutos disponibles.
-- Aplica una ventana de TIEMPO EXACTA (timestamp) de 24 horas (86.400 segundos).
-- Trabaja en UTC para evitar errores de zona horaria local.
-"""
 
 import pandas as pd
 import requests
